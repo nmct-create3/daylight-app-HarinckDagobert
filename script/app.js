@@ -74,7 +74,7 @@ const getData = (endpoint) => {
 };
 
 const getEndpoint = (lat, lon) => {
-  return `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=27179b0d5173ffdc399a05d067c04a82&units=metric&lang=nl&cnt=1`;
+  return `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${key}&units=metric&lang=nl&cnt=1`;
 };
 // 2 Aan de hand van een longitude en latitude gaan we de yahoo wheater API ophalen.
 let getAPI = async (lat, lon) => {
